@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceLogger.Core", "PerformanceLogger.Core\PerformanceLogger.Core.csproj", "{93804100-CBFF-4926-8051-ED696D16666D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceLogger.Server", "PerformanceLogger.Server\PerformanceLogger.Server.csproj", "{820FBC7D-BDBE-4C92-9550-714408AFE953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93804100-CBFF-4926-8051-ED696D16666D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93804100-CBFF-4926-8051-ED696D16666D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93804100-CBFF-4926-8051-ED696D16666D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93804100-CBFF-4926-8051-ED696D16666D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820FBC7D-BDBE-4C92-9550-714408AFE953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820FBC7D-BDBE-4C92-9550-714408AFE953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820FBC7D-BDBE-4C92-9550-714408AFE953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820FBC7D-BDBE-4C92-9550-714408AFE953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D353EC1D-E4F5-4E75-ACF3-C7A68F51B4FA}
+	EndGlobalSection
+EndGlobal
