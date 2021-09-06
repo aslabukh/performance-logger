@@ -2,7 +2,7 @@
 
 namespace PerformanceLogger.Core.Factory
 {
-    internal interface ILogFactory
+    public interface ILogFactory
     {
         ILog CreateLog();
         ITimeLog CreateTimeLog();

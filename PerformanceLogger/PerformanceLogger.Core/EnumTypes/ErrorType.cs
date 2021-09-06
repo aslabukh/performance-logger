@@ -1,6 +1,6 @@
 ﻿namespace PerformanceLogger.Core.EnumTypes
 {
-    internal enum ErrorType : byte
+    public enum ErrorType : byte
     {
         None = 0,
         BusinessLogic,

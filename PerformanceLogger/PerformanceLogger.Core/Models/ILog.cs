@@ -3,7 +3,7 @@ using PerformanceLogger.Core.EnumTypes;
 
 namespace PerformanceLogger.Core.Models
 {
-    internal interface ILog
+    public interface ILog
     {
         ErrorType ErrorType { get; set; }
         LogLevel LogLevel { get; set; }

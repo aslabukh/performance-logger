@@ -2,7 +2,7 @@
 
 namespace PerformanceLogger.Core.Models
 {
-    internal interface ITimeLog : ILog
+    public interface ITimeLog : ILog
     {
         DateTime StartDateTimeUtc { get; set; }
     }

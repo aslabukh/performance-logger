@@ -3,7 +3,7 @@ using PerformanceLogger.Core.Models;
 
 namespace PerformanceLogger.Core.Factory
 {
-    internal class LogFactory : ILogFactory
+    public class LogFactory : ILogFactory
     {
         public ILog CreateLog()
         {

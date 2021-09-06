@@ -1,6 +1,6 @@
 ﻿namespace PerformanceLogger.Core.EnumTypes
 {
-    internal enum ObjectType : byte
+    public enum ObjectType : byte
     {
         None = 0
     }
