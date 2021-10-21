@@ -2,7 +2,7 @@
 
 namespace PerformanceLogger.Core.Settings
 {
-    internal interface ILoggerSettings
+    public interface ILoggerSettings
     {
         LogLevel LogLevel { get; }
         OperationsType Operation { get; }
