@@ -1,4 +1,8 @@
-﻿using PerformanceLogger.Core.EnumTypes;
+﻿using System;
+using PerformanceLogger.Core.EnumTypes;
+using PerformanceLogger.Core.Settings;
+using PerformanceLogger.Server.Decorators;
+using PerformanceLogger.Server.Implementations.NLog;
 
 namespace PerformanceLogger.Server.Factory
 {
@@ -6,7 +10,14 @@ namespace PerformanceLogger.Server.Factory
     {
         public ILogger CreateLogger(LoggerType loggerType)
         {
-            throw new System.NotImplementedException();
+            var defaultSettings = new DefaultSettings();
+            switch (loggerType)
+            {
+                case LoggerType.NLog:
+                    return new Logger(new NLogImplementation(), new EmptyValuesFromSettingsDecorator(defaultSettings), new NLogConfigValidator());
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(loggerType), loggerType, "Can't find logger type");
+            }
         }
     }
 }

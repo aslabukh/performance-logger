@@ -2,7 +2,7 @@
 
 namespace PerformanceLogger.Core.Settings
 {
-    internal class DefaultSettings : ILoggerSettings
+    public class DefaultSettings : ILoggerSettings
     {
         public LogLevel LogLevel => LogLevel.Info;
         public OperationsType Operation => OperationsType.None;
